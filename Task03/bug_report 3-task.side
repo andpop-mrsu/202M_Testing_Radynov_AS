@@ -1,0 +1,371 @@
+{
+  "id": "ca7526ef-d04e-4ce9-9827-ffdae37f06e9",
+  "version": "2.0",
+  "name": "tor",
+  "url": "https://demo.knd.gov.ru/registers/objects/kno",
+  "tests": [{
+    "id": "be314ba1-8866-444e-b86f-bd64f072204d",
+    "name": "2 test",
+    "commands": [{
+      "id": "59b838db-7cf9-4882-a6e8-32e1385468b0",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.knd.gov.ru/registers/objects-map",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93922110-6d64-46b8-97ae-3ddab30f24f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff2d7c94-55a2-4e70-b9df-9366d4c6f8fa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=×",
+      "targets": [
+        ["linkText=×", "linkText"],
+        ["css=.introjs-skipbutton", "css:finder"],
+        ["xpath=//a[contains(text(),'×')]", "xpath:link"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cb61953-ee2a-480c-b9cf-2c76d5c3012c",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkbox-group-arrow-0",
+      "targets": [
+        ["id=checkbox-group-arrow-0", "id"],
+        ["css=#checkbox-group-arrow-0", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f534c469-7909-4ae2-b0fa-a84fba9a89c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#checkbox-group-0 > #checkbox-group-0 > #checkbox-group-0",
+      "targets": [
+        ["css=#checkbox-group-0 > #checkbox-group-0 > #checkbox-group-0", "css:finder"],
+        ["xpath=//span[@id='checkbox-group-0']", "xpath:attributes"],
+        ["xpath=//div[@id='checkbox-group-0']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Слои')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "913b2963-519f-4f92-839e-a081d7d53832",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-10:nth-child(1) > .text-bold",
+      "targets": [
+        ["css=.mb-10:nth-child(1) > .text-bold", "css:finder"],
+        ["xpath=//div[@id='checkbox-group-0']/div[2]/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Объекты контроля')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9e1b061-6d1d-4994-845d-cfc8805f5f0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab-pane",
+      "targets": [
+        ["css=.tab-pane", "css:finder"],
+        ["xpath=//div[@id='']", "xpath:attributes"],
+        ["xpath=//evolenta-scrollbar/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8103830a-1bd1-4210-ac37-a085e38d25ba",
+    "name": "1 test",
+    "commands": [{
+      "id": "dc8e1fa7-06b9-4bfa-a6c6-25fa9180a92e",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.knd.gov.ru/registers/objects-map",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7752b372-d20a-4621-99f9-9a4d26b8652d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59999620-63a8-496b-a59c-3f0f4b27cc30",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=×",
+      "targets": [
+        ["linkText=×", "linkText"],
+        ["css=.introjs-skipbutton", "css:finder"],
+        ["xpath=//a[contains(text(),'×')]", "xpath:link"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39f0c063-63fa-4523-889d-93a37ac09344",
+      "comment": "",
+      "command": "click",
+      "target": "id=_objects-map-add-geocoder",
+      "targets": [
+        ["id=_objects-map-add-geocoder", "id"],
+        ["css=#\\_objects-map-add-geocoder", "css:finder"],
+        ["xpath=//button[@id='_objects-map-add-geocoder']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Добавить объект на карте')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "557bee91-2402-478c-8a91-57deb0a090f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-w-24:nth-child(1) > .tw-leading-snug",
+      "targets": [
+        ["css=.tw-w-24:nth-child(1) > .tw-leading-snug", "css:finder"],
+        ["xpath=//div[@id='top_center']/div/div/evolenta-geomap-ui-editor/div/div[2]/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Точечный объект')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9626157-0342-4aad-a44b-090fbceb41ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=canvas",
+      "targets": [
+        ["css=canvas", "css:finder"],
+        ["xpath=//div[@id='evolenta-Geomap__map']/div[2]/div/div/canvas", "xpath:idRelative"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c696724c-d3ac-4873-b013-7fbe84c2bdde",
+    "name": "3 test",
+    "commands": [{
+      "id": "3618fd39-6a42-42f9-b3d9-60df77c16961",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ce4abb5-b619-47da-bf48-cd4b4d018a59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-xs",
+      "targets": [
+        ["css=.btn-xs", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Новый объект')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7836c9b-935a-4ffd-af75-f7b35db154bf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сохранить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abe10fa9-976b-4f8d-a52c-b1262dc81b9f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сохранить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8d68183-c313-43f2-a538-ed68c7d1261a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anchor",
+      "targets": [
+        ["css=.anchor", "css:finder"],
+        ["xpath=//form/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,' не выбран')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c71b857-fc16-491c-a20d-8e80f5125119",
+      "comment": "",
+      "command": "click",
+      "target": "css=.display-flex:nth-child(1) > .checkbox-block > .ng-tns-c47-8",
+      "targets": [
+        ["css=.display-flex:nth-child(1) > .checkbox-block > .ng-tns-c47-8", "css:finder"],
+        ["xpath=//div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c691c8af-55a6-40be-b87a-341e3d41f4f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='adaptive_navbar_undefined']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Вернуться к операции 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ebac59a-679b-45e1-a795-34e588830c7c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сохранить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc8a477a-9962-4a46-ac1a-a5d9df96a420",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сохранить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24220abb-3802-432c-9310-0a56e0331e5f",
+      "comment": "",
+      "command": "click",
+      "target": "name=orgName",
+      "targets": [
+        ["name=orgName", "name"],
+        ["css=.col-md-6:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='orgName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "669d2a4b-ab7e-4e9b-adbf-2ac3f948723b",
+      "comment": "",
+      "command": "type",
+      "target": "name=orgName",
+      "targets": [
+        ["name=orgName", "name"],
+        ["css=.col-md-6:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='orgName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "тест 1"
+    }, {
+      "id": "eb69e3e7-a4f1-4793-b53d-225c96cb4784",
+      "comment": "",
+      "command": "click",
+      "target": "name=shortName",
+      "targets": [
+        ["name=shortName", "name"],
+        ["css=.controls > .ng-pristine", "css:finder"],
+        ["xpath=//input[@name='shortName']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77b404b3-6b4e-4a9b-85d0-8e66be5e7f6b",
+      "comment": "",
+      "command": "type",
+      "target": "name=shortName",
+      "targets": [
+        ["name=shortName", "name"],
+        ["css=.controls > .ng-pristine", "css:finder"],
+        ["xpath=//input[@name='shortName']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "тест 1"
+    }, {
+      "id": "9a9738af-feb7-4626-86a0-41f89d2c65e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.display-inline-block > .input-group > .form-control",
+      "targets": [
+        ["css=.display-inline-block > .input-group > .form-control", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//evolenta-address-gar/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49dcc26f-d96e-41c6-9ec5-eedd8eaf2178",
+      "comment": "",
+      "command": "type",
+      "target": "css=.input-group > .ng-dirty",
+      "targets": [
+        ["css=.input-group > .ng-dirty", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//evolenta-address-gar/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "саранск ленина 1"
+    }, {
+      "id": "449e20f1-c177-4dcf-aa89-43f803d2fec2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(1)",
+      "targets": [
+        ["css=.item:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Респ Мордовия, г Саранск, пр-кт Ленина, д. 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44daf842-9604-4087-835b-4fd59a086ad0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сохранить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89eb0006-5398-4445-948b-87b0d9dc4dde",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сохранить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f1e0a7d3-d4ff-41e6-a634-e0b14d26588d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://demo.knd.gov.ru/", "https://demo.knd.gov.ru/registers/objects/kno", "https://demo.knd.gov.ru/registers/objects-map"],
+  "plugins": []
+}
